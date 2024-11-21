@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Translate remove",
+  "name": "Remove 'Translate this page' from Google results",
   "version": "1.0",
-  "description": "Remove the damn translate link.",
+  "description": "Remove the damn translate links.",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["linkRemovererererrrr.js"]
     }
   ]
 }
